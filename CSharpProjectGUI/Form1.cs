@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CSharpProjectConsole;
 
 namespace CSharpProjectGUI
 {
@@ -14,6 +15,7 @@ namespace CSharpProjectGUI
     {
         public Form1()
         {
+            MasterMindGame game = new MasterMindGame(20, 4);
             InitializeComponent();
         }
     }
