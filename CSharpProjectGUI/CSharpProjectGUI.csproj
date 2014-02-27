@@ -83,6 +83,7 @@
     <ProjectReference Include="..\..\CsharpProjectConsole\CSharpProjectConsole\CSharpProjectConsole.csproj">
       <Project>{c48ff37a-b999-4307-b2c7-4c46ccf4e171}</Project>
       <Name>CSharpProjectConsole</Name>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
